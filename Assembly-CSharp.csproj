@@ -69,8 +69,10 @@
     <Compile Include="Assets\Game\Scripts\UI\UIItem.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\Modifiers\UniformModifier.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\Modifiers\OnlyOneEdgeModifier.cs" />
+    <Compile Include="Assets\Game\Scripts\Installers\ConfigsInstaller.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\EmptySprite.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UIWeapon.cs" />
+    <Compile Include="Assets\Game\Scripts\Configs\InventoryConfig.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UIArmor.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UICell.cs" />
