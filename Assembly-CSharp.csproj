@@ -62,6 +62,7 @@
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\Modifiers\FreeModifier.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\Modifiers\CustomPremadeModifier.cs" />
+    <Compile Include="Assets\Game\Scripts\UI\UIItemWindow.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UIHealthBar.cs" />
     <Compile Include="Assets\External\ProceduralUIImage\Scripts\Modifiers\RoundModifier.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UICharacter.cs" />
