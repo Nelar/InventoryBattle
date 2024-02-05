@@ -1,5 +1,8 @@
+using InventoryBattle.Configs;
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace InventoryBattle.UI
 {
@@ -10,12 +13,26 @@ namespace InventoryBattle.UI
 
         [SerializeField]
         GameObject _active;
+        
+        Toggle _toggle;
 
-        public void Set(int count) => _count.text = count.ToString();
-        public bool Active
+        public Action<string> OnChooseWeapon = delegate { };
+
+        string _bulletId;
+
+        void Awake()
         {
-            get => _active.activeSelf;
-            set => _active.SetActive(value);
+            _toggle = GetComponent<Toggle>();
+            _toggle.onValueChanged.AddListener(isOn =>
+            {
+                if (isOn) OnChooseWeapon?.Invoke(_bulletId);
+            });
+        }
+
+        public void Init(BulletItem bullet)
+        {
+            _bulletId = bullet.ID;
+            _count.text = bullet.Damage.ToString("0");
         }
     }
 }

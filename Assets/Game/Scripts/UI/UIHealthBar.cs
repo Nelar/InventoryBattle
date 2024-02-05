@@ -12,10 +12,10 @@ namespace InventoryBattle.UI
         [SerializeField]
         TMP_Text _count;
 
-        public void SetCount(int count)
+        public void SetCount(float count)
         {
             var progress = Mathf.Clamp(count, 0, 100);
-            _count.text = progress.ToString();
+            _count.text = progress.ToString("0");
             _progress.fillAmount = progress/100.0f;
         }
     }

@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 6efc5c59a2765c74ca8aa106e1357883, type: 3}
   m_Name: Bullet9x18
-  m_EditorClassIdentifier: Assembly-CSharp:InventoryBattle.Configs:BulletItem
-  _id: gun_bullet
-  _title: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B 9\u044518"
+  m_EditorClassIdentifier: 
+  _id: bullet9x18
+  _title: "\u043F\u0430\u0442\u0440\u043E\u043D\u044B 9\u044518"
   _weight: 0.01
   _maxInCell: 50
   _icon: {fileID: 21300000, guid: 8c69dbc885ce70a4cbc5260e5718147b, type: 3}
   _bulletType: 0
   _damage: 5
+  _shotsCount: 1

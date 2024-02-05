@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,8 +13,16 @@ namespace InventoryBattle.UI
         [SerializeField]
         Image _body;
 
-        public void SetHealth(int count) => _healthBar.SetCount(count);
-        public void SetHead(Sprite sprite) => _head.sprite = sprite;
-        public void SetBody(Sprite sprite) => _body.sprite = sprite;
+        public void SetHealth(float count) => _healthBar.SetCount(count);
+        public void SetHead(Sprite sprite)
+        {
+            _head.sprite = sprite;
+            _head.gameObject.SetActive(_head.sprite != null);
+        }
+        public void SetBody(Sprite sprite)
+        {
+            _body.sprite = sprite;
+            _body.gameObject.SetActive(_body.sprite != null);
+        }
     }
 }

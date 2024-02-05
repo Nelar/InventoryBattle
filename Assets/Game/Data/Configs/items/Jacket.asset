@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: a986baf2ceaaf7744834709beecc2536, type: 3}
   m_Name: Jacket
-  m_EditorClassIdentifier: Assembly-CSharp:InventoryBattle.Configs:ArmorItem
+  m_EditorClassIdentifier: 
   _id: jacket
   _title: "\u041A\u0443\u0440\u0442\u043A\u0430"
   _weight: 1

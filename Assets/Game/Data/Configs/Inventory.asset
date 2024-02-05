@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: ce02ead3a4b055d41a91b38abdca8f51, type: 3}
   m_Name: Inventory
-  m_EditorClassIdentifier: Assembly-CSharp:InventoryBattle.Configs:Inventory
+  m_EditorClassIdentifier: 
   _items:
-  - {fileID: 11400000, guid: 84e27bb91ad747e4295d54f1a5c6fe6e, type: 2}
-  - {fileID: 11400000, guid: d86fd69529d65d24096cfd28e6ac941b, type: 2}
-  - {fileID: 11400000, guid: 514019dd2e50bf34cb00d975b27d4246, type: 2}
-  - {fileID: 11400000, guid: 31ebdbfd2c4616d49892173953e7c897, type: 2}
+  - {fileID: 11400000, guid: 5d3f3b5714768564b9c5ff146b599222, type: 2}
+  - {fileID: 11400000, guid: 4b3db3ee6a56e4f45bb9e405e06c39a1, type: 2}
+  - {fileID: 11400000, guid: e85b782e0cada844c8585a051903029a, type: 2}
   - {fileID: 11400000, guid: 247e3b3a64104954a9d219747f514ff3, type: 2}
+  - {fileID: 11400000, guid: 35053d7acd3100f49941db9cb5925e95, type: 2}
   - {fileID: 11400000, guid: 437008d81e9e6a5428517c985bc6bac5, type: 2}
-  - {fileID: 11400000, guid: f12c9a1d76e84c5458dda7d259b03c1b, type: 2}
+  - {fileID: 11400000, guid: 12e4499836982ee43860dfd8f657aa45, type: 2}
